@@ -1,0 +1,30 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* use grid display and place items for centering */
+.wrapper {
+    height: 100vh;
+    background: #000;
+    /* background: rgb(145, 80, 80); */
+    display: grid;
+    place-items: center;
+}
+
+.portrait{
+    font-size: 10px;
+    line-height: 10px;
+    background: url('Codess1.jpg') fixed center no-repeat;
+    background-size: contain;
+}
+
+.portrait {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,.1);
+    /* -webkit-text-fill-color: rgba(255,255,255,.1); */
+  }
